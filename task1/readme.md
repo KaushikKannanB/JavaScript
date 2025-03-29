@@ -1,5 +1,3 @@
-# To-Do List Project - README
-
 ## Key Learnings
 
 ### 1. The `<span>` Tag
