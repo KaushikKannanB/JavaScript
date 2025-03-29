@@ -113,7 +113,5 @@
         answer.classList.remove('bold');
     }
 ```
-- Resets the calculator’s display and removes any formatting on the result.
-
-This README provides an overview of the core concepts, styles, and JavaScript functionality used in the calculator project.
+![image](https://github.com/user-attachments/assets/a802084b-f2b4-4eb2-b2e0-b8a340925c20)
 
