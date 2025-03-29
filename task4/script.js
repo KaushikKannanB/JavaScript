@@ -30,6 +30,7 @@ async function findWeather() {
         
         document.getElementById('results').classList.add("bold");  
     } catch (error) {
+        document.getElementById('results').classList.add("bold");
         document.getElementById('results').innerHTML = `<p style="color: red;">⚠️ ${error.message}</p>`;
     }
 }
