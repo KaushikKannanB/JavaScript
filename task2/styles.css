@@ -1,0 +1,88 @@
+body
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.25)
+}
+.calculator
+{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+#display
+{
+    text-align:end;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 15px;
+}
+#answer
+{
+    text-align: end;
+    padding: 5px;
+    border-radius: 15px;
+}
+.calculator:hover
+{
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    transition: all 0.4s ease-in-out;
+}
+.texts
+{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+.symbols
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+.others
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+.bold
+{
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: #d4edda;
+    color: #155724;
+    transition: all 0.5s;
+}
+button
+{
+    font-size: 1.3em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.operator {
+    background-color: #ff9800;
+    color: white;
+}
+.equal {
+    background-color: #4caf50;
+    color: white;
+}
+.clear {
+    background-color: #f44336;
+    color: white;
+}
+button:hover {
+    background: dodgerblue;
+    transform: scale(1.1);
+}

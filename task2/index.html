@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="texts">
+                <input type="text" id="display" readonly>
+                <span id="answer"></span>
+            </div>
+            <div class="symbols">
+                <button class="decimal">.</button>
+                <button onclick="calculateResult()" class="equal">=</button>
+                <button onclick="clearDisplay()" class="clear">C</button>
+            </div>
+            <div class="others">
+                <button onclick="appendValue('+')" class="operator">+</button>
+                <button onclick="appendValue('-')" class="operator">-</button>
+                <button onclick="appendValue('*')" class="operator">x</button>
+                <button onclick="appendValue('/')" class="operator">/</button>
+                <button onclick="appendValue('(')">(</button>
+                <button onclick="appendValue(')')">)</button>
+                <button onclick="appendValue('0')">0</button>
+                <button onclick="appendValue('1')">1</button>
+                <button onclick="appendValue('2')">2</button>
+                <button onclick="appendValue('3')">3</button>
+                <button onclick="appendValue('4')">4</button>
+                <button onclick="appendValue('5')">5</button>
+                <button onclick="appendValue('6')">6</button>
+                <button onclick="appendValue('7')">7</button>
+                <button onclick="appendValue('8')">8</button>
+                <button onclick="appendValue('9')">9</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
