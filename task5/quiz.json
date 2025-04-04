@@ -1,0 +1,20 @@
+[
+    {
+        "question": "Who is the Prime Minister of India?",
+        "option": ["Narendra Modi", "Rahul Gandhi", "M K Stalin", "Thalapathy Vijay"],
+        "answer": "Narendra Modi",
+        "explanation": "2024 PM election"
+    },
+    {
+        "question": "Who is the Prime Minister of India last time?",
+        "option": ["Narendra Modi", "Rahul Gandhi", "Mamta Banerjee", "Mulayam Singh Yadav"],
+        "answer": "Narendra Modi",
+        "explanation": "2020 PM election"
+    },
+    {
+        "question": "Who is the Prime Minister of India even before that?",
+        "option": ["Narendra Modi", "Manmohan Singh", "J Jayalalitha", "Mamta Banerjee"],
+        "answer": "Narendra Modi",
+        "explanation": "2019 PM election"
+    }
+]
