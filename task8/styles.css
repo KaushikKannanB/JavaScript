@@ -31,3 +31,19 @@ a
     height: 200px;
     text-align: center;
 }
+@keyframes fade {
+    from
+    {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+}
+.show
+{
+    animation: fade 0.4s ease-in-out;
+}

@@ -8,8 +8,12 @@ const routes = {
 function renderRoute()
 {
     const hash = window.location.hash.substring(1);
+    app.classList.remove("show");
     app.innerHTML = routes[hash];
+    
+    void app.offsetWidth;
+    app.classList.add("show");
 }
 
 window.addEventListener('hashchange', renderRoute);
-window.addEventListener('load', renderRoute);
+// window.addEventListener('load', renderRoute);
