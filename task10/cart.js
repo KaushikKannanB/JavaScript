@@ -25,7 +25,8 @@ function renderCart() {
             <div>
                 <h3>${product.title}</h3>
                 <p>${product.price}</p>
-                <button class="remove-btn" data-index="${index}">Remove</button>
+                <p>Dimension: ${product.dimensions}</p>
+                <button class="remove-btn" id="rbtn" data-index="${index}">Remove</button>
             </div>
         `;
 

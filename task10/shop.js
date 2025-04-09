@@ -30,15 +30,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="${product.img}" alt="${product.title}">
                 <h3>${product.title}</h3>
                 <p class="price">${product.price}</p>
-                <button>Add to Cart</button>
-            `;
+                <div><button>Add to Cart</button>
+                <input type="text" class="dims" placeholder="enter dimension"></div>
+                <p class="note">Default dimensions: 50x50</p>
+             `;
 
             const button = card.querySelector("button");
+            const dimInput = card.querySelector(".dims");
             button.addEventListener("click", () => {
+                const dim = dimInput.value.trim();
                 const productToAdd = {
                     title: product.title,
                     price: product.price,
-                    img: product.img
+                    img: product.img,
+                    dimensions: dim
                 };
 
                 cart.push(productToAdd);

@@ -1,23 +1,63 @@
 [
     {
-      "title": "Product One",
+      "title": "90's Hollywood",
       "price": "$19.99",
       "img": "imgs/films.jpg"
     },
     {
-      "title": "Product Two",
-      "price": "$29.99",
+      "title": "Pack of 10",
+      "price": "$229.99",
       "img": "imgs/hollywood2.jpg"
     },
     {
-      "title": "Product Three",
+      "title": "LA Hollywood",
       "price": "$39.99",
       "img": "imgs/hollywood.jpeg"
     },
     {
-      "title": "Product Four",
-      "price": "$29.99",
+      "title": "Pack of 4",
+      "price": "$89.99",
       "img": "imgs/hollywood3.jpg"
+    },
+    {
+      "title": "All of us are dead",
+      "price": "$29.99",
+      "img": "imgs/all-of-us-are-dead-pictures-khvxed0lbu16dguv.jpg"
+    },
+    {
+        "title": "Modern family Finale",
+        "price": "$29.99",
+        "img": "imgs/modern-family-series-finale-selfie.avif"
+    },
+    {
+        "title": "Netflix-Sex education",
+        "price": "$29.99",
+        "img": "imgs/sexed.jpg"
+    },
+    {
+        "title": "Netflix - Stranger things",
+        "price": "$29.99",
+        "img": "imgs/Stranger-things.avif"
+    },
+    {
+        "title": "Netflix-Squid Games",
+        "price": "$29.99",
+        "img": "imgs/squidgames.jpg"
+    },
+    {
+        "title": "Eras Taylor Swift",
+        "price": "$29.99",
+        "img": "imgs/taytay.png"
+    },
+    {
+        "title": "HBO - White Lotus",
+        "price": "$29.99",
+        "img": "imgs/whitelotus.jpeg"
+    },
+    {
+        "title": "Feminist",
+        "price": "$29.99",
+        "img": "imgs/71rwFAFgMZL._SL1500_.jpg"
     }
   ]
   
