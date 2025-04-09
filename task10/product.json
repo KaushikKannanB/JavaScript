@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Product One",
+      "price": "$19.99",
+      "img": "imgs/films.jpg"
+    },
+    {
+      "title": "Product Two",
+      "price": "$29.99",
+      "img": "imgs/hollywood2.jpg"
+    },
+    {
+      "title": "Product Three",
+      "price": "$39.99",
+      "img": "imgs/hollywood.jpeg"
+    },
+    {
+      "title": "Product Four",
+      "price": "$29.99",
+      "img": "imgs/hollywood3.jpg"
+    }
+  ]
+  

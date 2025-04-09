@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="imgs/logo.png" alt="" style="width: 30%;"></a>
+      <div id="search-bar" style="text-align:center; margin: 20px;">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search products..."
+          style="padding: 10px; width: 50%; font-size: 16px;"
+        />
+      </div>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- This is where products will load dynamically -->
+    <section id="hero">
+      <div id="product-list" class="products"></div>
+    </section>
+
+    <script src="shop.js"></script>
+  </body>
+</html>
